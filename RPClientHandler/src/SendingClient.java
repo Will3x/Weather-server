@@ -8,8 +8,7 @@ class SendingClient {
 
     static boolean makeConnection() {
         try {
-            Socket s = new Socket("51.136.52.8", 3332); // for production
-//            Socket s = new Socket("localhost", 3332); // for testing at home
+            Socket s = new Socket("51.136.52.8", 3332);
 
             dOut = new DataOutputStream(s.getOutputStream());
             System.out.println("Connected to " + s.getInetAddress().toString());
