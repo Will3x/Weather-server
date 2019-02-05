@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+width:auto;
+height:auto;
+margin:0 auto;
+}
+
+#register {
+width:350px;
+height:500px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid gray;
+}
+th, td {
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+form {
+margin: 0 auto;
+width:250px;
+}
